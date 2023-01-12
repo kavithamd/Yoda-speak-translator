@@ -1,27 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 :root{
-    --brown:#ca7a55e6;
+    --green:#a1c87fe6;
 }
-
 body{
-    font-family: 'Noto Serif Khojki', serif;
+    font-family: 'EB Garamond', serif;
     width: 100%;
     margin: 0px auto;
 }
-
-
 h1{
     text-align: center;
 }
-
 .navigation{
-    background-color: var(--brown);
+    background-color: var(--green);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
-
-
 .main{
     background-size: 350px;
     height: 330px;
@@ -29,12 +23,9 @@ h1{
     margin: auto;
     text-align: center;
 }
-
 .container-center{
     padding: 1rem 0rem; 
 }
-
-
 #output{
     display: block;
     padding: 1rem;
@@ -43,9 +34,6 @@ h1{
     height:10vh;
     border-radius: 0.4rem;
 }
-
-
-
 #txt-input{
         border: 1px solid green;
         padding: 1rem;
@@ -54,27 +42,24 @@ h1{
         width: 60%;
         border-radius: 0.4rem;
 }
-
-
 h3{
     text-align: center;
 }
-
 footer{
     padding: 1rem 1rem;
     margin: auto;
-    background-color: var(--brown);
+    background-color: var(--green);
     border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
     text-align: center;
 }
-
 #btn-translate{
     text-align: center;
     display: flex;
     margin:auto;
     border-radius: 0.5rem;
     padding:0.6rem 1.5rem;
-    background-color: var(--brown);
-    border-color:brown
+    background-color: var(--green);
+    border-color:green
 }
 
